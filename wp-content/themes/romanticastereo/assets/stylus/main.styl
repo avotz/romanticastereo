@@ -114,8 +114,9 @@ body
 	background-color white
 	top 0
 	z-index 900
-	height 65px
+	height auto//65px
 	transition all .5s ease
+	text-align: center
 	
 	&-logo
 		z-index: 300;
@@ -158,6 +159,8 @@ body
 
 @media screen and (min-width: 768px)
 	.header
+		text-align: left
+		height: 65px
 		&-logo
 			padding 1rem 15px //2.65rem 0
 			max-width 100px
@@ -242,7 +245,7 @@ body
 
 .tunein
 	color rgba(0,0,0,.8)
-	font-size 1.5em
+	font-size 1em
 	//background rgba(0,0,0,.8)
 	padding .5em
 	//text-align center
@@ -298,14 +301,22 @@ body
 	right: 0
 	background-color: white
 	text-align: center
-	font-size: 1.5rem
+	line-height: 20px;
+	font-size: 1.2rem;
+
 	&-container
 		padding: 1rem 0
-		
+
 @media screen and (min-width: 768px)
 	.player
 		.text-play
 			display none
+	.tunein
+		font-size: 1.5rem
+
+	.current-song
+		font-size: 1.5rem
+
 .contact-popup
 	h2 
 		margin-bottom: 1rem
