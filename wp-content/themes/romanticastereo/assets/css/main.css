@@ -1379,12 +1379,10 @@ body.home .header-logo {
   }
 }
 .banner {
-  background-image: url("./img/hexellence.png"), url("./img/hexellence.jpg");
-  -webkit-background-size: auto, cover;
-  -moz-background-size: auto, cover;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-  background-position: center center;
+  background-image: url("./img/hexellence.png");
+  -webkit-background-size: auto, background-repeat repeat, background-position center center;
+  -moz-background-size: auto, background-repeat repeat, background-position center center;
+  background-size: auto, background-repeat repeat, background-position center center;
   height: 100vh;
 }
 .banner-logo {
