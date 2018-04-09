@@ -26,12 +26,12 @@
               
               <!-- <a href="<?php echo esc_url(home_url('/')); ?>" class="header-logo"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png"></a> -->
 			  <div class="tunein">
-				Escúchenos tambien en <a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/tunein-color.png" alt="Tune In Radio"></a>
+				Escúchenos tambien en <a href="https://tunein.com/radio/Romantica-Estereo-1021-s305352/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/tunein-color.png" alt="Tune In Radio"></a>
 				</div>
               <div class="header-right flex-container-sb">
 			    
                 <div class="header-contact">
-				  <a href="#"><i class="fa fa-facebook"></i></a>
+				  <a href="https://www.facebook.com/Rom%C3%A1ntica-Est%C3%A9reo-315346035537237/"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a>
                   <a href="#"><i class="fa fa-youtube"></i></a>
                   <a href="#contact-popup" class="contact-popup-link"><i class="fa fa-envelope-o"></i><span class="text">Contact Us</span></a>
