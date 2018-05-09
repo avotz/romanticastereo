@@ -31,7 +31,7 @@
               <div class="header-right flex-container-sb">
 			    
                 <div class="header-contact">
-                  <a href="http://ondabravaradio.com/">Onda Brava Radio</a>
+                  <a href="http://ondabravaradio.com/" title="Ondabrava Radio" class="icon-ondabrava"><img src="<?php echo get_template_directory_uri(); ?>/img/icon-ondabrava.png" alt="Ondabrava Radio"></a>
 				  <a href="https://www.facebook.com/Rom%C3%A1ntica-Est%C3%A9reo-315346035537237/"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a>
                   <a href="#"><i class="fa fa-youtube"></i></a>

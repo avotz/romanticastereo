@@ -1300,6 +1300,7 @@ body.home .header-logo {
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
   display: inline-block;
+  vertical-align: middle;
 }
 .header-contact .btn:hover,
 .header-contact a:hover {
@@ -1315,6 +1316,10 @@ body.home .header-logo {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   display: none;
+}
+.header-contact .icon-ondabrava {
+  padding: 0.5rem;
+  width: 85px;
 }
 @media screen and (min-width: 768px) {
   .header {
