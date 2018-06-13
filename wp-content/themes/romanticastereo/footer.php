@@ -14,6 +14,9 @@
 	<div class="current-song">
       <div class="current-song-container">
        <?php dynamic_sidebar('sidebar-current-song'); ?>
+	   <div class="copyright">
+			<a href="https://avotz.com"><i class="icon-avotz"></i></a>
+		</div>
       </div>
     </div>
 

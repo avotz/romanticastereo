@@ -1519,6 +1519,17 @@ body.home .header-logo {
 .contact-popup h2 {
   margin-bottom: 1rem;
 }
+.copyright {
+  color: #9e9683;
+  position: absolute;
+  right: 1rem;
+  font-size: 2.5rem;
+  z-index: 2;
+  bottom: 8px;
+}
+.copyright a {
+  color: #9e9683;
+}
 #rtmp-player {
   position: relative;
   left: 85px;
