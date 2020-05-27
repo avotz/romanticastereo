@@ -224,23 +224,29 @@ body
 	background-repeat repeat, 
 	background-position center center
 	height 100vh
-	&-logo 
-		background-color white
-		display inline-block
-		border-radius 50%
-		max-width 370px
-		max-height: 370px
-		height: 370px
-		margin-bottom 1rem
+	&-logo
+		display: inline-block;
+		max-width: 280px; //370px
+		max-height: 370px;
+		padding: 0.5rem; 
+		// background-color white
+		// display inline-block
+		// border-radius 50%
+		// max-width 370px
+		// max-height: 370px
+		// height: 370px
+		// margin-bottom 1rem
 	&-container
 		height 100vh
 		display flex
 		justify-content center
-		align-items center
+		align-items top
 	&-info
 		text-align center
 		max-width 750px
+		padding-top 120px
 		color white
+		width 100%
 	h1 
 		margin-bottom 2rem
 		color white
@@ -260,11 +266,12 @@ body
 		display inline-block
 		vertical-align middle
 .player
-	position absolute
-	left 50%
-	top 58%
-	max-width: 400px;
-	transform: translate(-50%, -50%)
+	padding-bottom 4rem
+	// position absolute
+	// left 50%
+	// top 58%
+	// max-width: 400px;
+	// transform: translate(-50%, -50%)
 	&-mobile
 		//display none
 		text-align center
@@ -280,25 +287,25 @@ body
 		text-align: center;
 		margin-top: 20px;
 	
-	li 
-		border-bottom 1px solid #e3e3e3
-		&:last-child
-			border none
-	a 
-		display block
-		padding 1rem
-		color verde
-		text-align center
-		&:hover
-			color celeste
-			background-color #eeeeee
+	// li 
+	// 	border-bottom 1px solid #e3e3e3
+	// 	&:last-child
+	// 		border none
+	// a 
+	// 	display block
+	// 	padding 1rem
+	// 	color verde
+	// 	text-align center
+	// 	&:hover
+	// 		color celeste
+	// 		background-color #eeeeee
 
-		i 
-			display block
-			font-size 1.2rem
-		span
-			display inline-block
-			color #3a2b14
+	// 	i 
+	// 		display block
+	// 		font-size 1.2rem
+	// 	span
+	// 		display inline-block
+	// 		color #3a2b14
 .current-song
 	position: fixed
 	bottom: 0
